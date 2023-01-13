@@ -14,7 +14,6 @@
 
 body {
   background-color: rgba(52, 53, 65, 1);
-  /* background-color: var(--background-default); */
 }
 
 .containerTitle {
@@ -149,4 +148,18 @@ footer > h2 {
   font-size: 24px;
   color: var(--primary-text-color);
   line-height: 50px;
+}
+
+.containerMovie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 10px auto 40px;
+}
+
+.movieScreen {
+  width: 95%;
+  margin: 10px auto;
+  object-fit: cover;
 }
