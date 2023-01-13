@@ -1,0 +1,152 @@
+:root {
+  --primary-text-color: #c9d1d9;
+  --background-default: #0d1117;
+  --background-sections: #161b22;
+  --accent-color: #58a6ff;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(52, 53, 65, 1);
+  /* background-color: var(--background-default); */
+}
+
+.containerTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.titlePage {
+  color: var(--primary-text-color);
+  font-size: 42px;
+  padding: 5px;
+}
+
+.subTitle {
+  color: var(--primary-text-color);
+  font-size: 28px;
+  padding: 5px;
+}
+
+.presentation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--background-sections);
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  flex-direction: column;
+  color: var(--primary-text-color);
+}
+
+.titlePresentation {
+  font-size: 28px;
+  border-bottom: 2px solid var(--accent-color);
+  text-indent: 1.5em;
+}
+
+.textPresentation {
+  margin: 10px;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.technologiesUsed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 80%;
+  margin: 10px auto;
+  flex-wrap: wrap;
+}
+
+.containerTechnologies {
+  width: 500px;
+  height: 40vh;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-color);
+  margin: 10px;
+  flex-direction: column;
+}
+
+.containerTechnologies > span {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.containerTechnologies > img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.screenProject {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.screen {
+  max-width: 700px;
+  margin: 10px;
+}
+
+.screen > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 28px;
+  color: var(--primary-text-color);
+  text-align: center;
+  margin: 20px;
+}
+
+footer {
+  background-color: var(--background-sections);
+  padding: 20px;
+  bottom: 0;
+  margin-top: 40px;
+}
+
+footer > h2 {
+  font-size: 28px;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+.members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.members > span {
+  font-size: 24px;
+  color: var(--primary-text-color);
+  line-height: 50px;
+}
